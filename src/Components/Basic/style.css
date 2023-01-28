@@ -1,0 +1,56 @@
+body{
+    background-color: beige;
+}
+
+button{
+    margin:1px;
+    background-color: black;
+    color:white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top:2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.mydiv{
+    height:1750px;
+    width:80%;
+   margin:auto;
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top:2%;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.outer{
+    height:550px;
+    width:300px;
+    margin:auto;
+   display:flex;
+   margin-top: 10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card{
+    height:auto;
+    width:400px;
+    margin-top: 10px;
+}
+.card-body{
+    height:100%;
+    width:95%;
+    margin:auto;
+}
+.img img{
+    width:90%;
+}
+
+@media screen and (min-width:100px) and (max-width:500px){
+
+    .mydiv{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+
+}
